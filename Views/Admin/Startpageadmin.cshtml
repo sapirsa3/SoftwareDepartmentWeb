@@ -1,0 +1,61 @@
+﻿@model projectnetwork.Models.Admin
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Add</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+
+    <div class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="#">SCE</a>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-offset-3 col-md-6">
+                <div align="center">
+                    <b><u>CHOOSE THE ACTION :</u></b>
+                    <br />
+                    <br />
+                    <tr>
+                        <td>@Html.ActionLink("Add user", "Adduser")</td>
+                        <br />
+                        <br />
+                        <td>@Html.ActionLink("Add students to course", "LoginPage")</td>
+                        <br />
+                        <br />
+                        <td>@Html.ActionLink("Set course scheduele", "LoginPage")</td>
+                        <br />
+                        <br />
+                        <td>@Html.ActionLink("Exam scheduele", "LoginPage")</td>
+                        <br />
+                        <br />
+                        <td>@Html.ActionLink("Update grade", "LoginPage")</td>
+                        <br />
+                        <br />
+                    </tr>
+                    
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
